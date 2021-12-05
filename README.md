@@ -4,7 +4,7 @@ Setup script for Mysterium nodes using their docker config.
 
 ## Instructions
 
-1. Clone thsi repo with `git clone https://github.com/actuallymentor/mysterium-docker-node-setup-script.git`
+1. Clone this repo with `git clone https://github.com/actuallymentor/mysterium-docker-node-setup-script.git`
 2. Change `PAYOUT_ADDRESS,` `APIKEY` and `PUBKEY`. The public key can be gotten with `cat ~/.ssh/yourkey.pub | pbcopy`
 3. Run `cd mysterium-docker-node-setup-script && bash setup.sh`
 
